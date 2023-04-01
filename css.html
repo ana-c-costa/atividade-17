@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade_17</title>
+    <style>
+        .principal
+        {
+            background-color: rgb(186, 147, 214);
+            display: flex;
+            flex-direction: row;
+        }
+        .d
+        {
+            width: 180px;
+            height: 180px;
+            background-color: blueviolet;
+            margin: 20px;
+        }
+        
+        @media screen and (min-width: 600px) and (max-width: 900px) {
+
+            .principal
+            {
+                flex-direction: column;
+            }
+            .d
+            {
+                background-color: indigo;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="principal">
+    <div class="d"></div>
+    <div class="d"></div>
+    <div class="d"></div>
+    </div>
+</body>
+</html>
